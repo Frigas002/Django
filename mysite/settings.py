@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-s2y7-3w$!2h(c30bf7vqaym2iasaf7**4kfjgabsty)xxb2rg)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+STATIC_ROOT = BASE_DIR / 'static'
 ALLOWED_HOSTS = ['frigas.pythonanywhere.com']
 
 
